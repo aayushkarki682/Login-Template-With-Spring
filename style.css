@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main{
+    
+}
+.inputclass{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 25px;
+    width: 1000px;
+}
+.inputclass input{
+    height: 50px;
+    width: 500px;
+}
+.inputclass button{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
